@@ -1,0 +1,195 @@
+body{
+  height: 1000vh;
+
+}
+.header{
+  background-image: url(../../../../public/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header a{
+  color: white;
+}
+.dropdown-menu a{
+  color: black;
+}
+.header img{
+  width: 100%;
+  position: relative;
+}
+nav{
+  /* position: absolute; */
+  top: 0;
+  background: none;
+}
+.header .logo{
+  display: flex;
+  gap: 10px;
+}
+.logo h4 span{
+  color: #63AEE8;
+}
+.header_content{
+  margin-top: 200px;
+}
+.header_content p{
+  padding: 60px 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+.header .header_button{
+  margin-bottom: 20px;
+}
+.header_content div h5{
+  bottom: 20px;
+  left: 20px;
+}
+.header_content div img{
+  border-radius: 30px;
+}
+.header .header_buttons {
+  display: flex;
+  justify-content: center;
+}
+.header .header_buttons button{
+  background: none;
+  border-radius: 50%;
+  color: white;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d1c8c8;
+  font-size: 30px;
+  margin: 50px 10px;
+}
+.header .header_buttons button:hover{
+  opacity: .5;
+}
+.section .Featured_Destinations_button button{
+  border: none;
+    background-color: #CECFD1;
+    padding: 5px;
+}
+.section .Featured_Destinations_button button:hover{
+  opacity: .8;
+}
+.section .Featured_Destinations_cards img{
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card_Data{
+  bottom: 0;
+  left: 18px;
+  color: white;
+}
+.card_Data button{
+    background-color: rgba(235, 229, 229, 0.3);;
+    font-weight: bold;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.card_Data button:hover{
+    background: none;
+}
+.Featured_Destinations_spans{
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.Featured_Destinations_spans span{
+    width: 10px;
+    height: 20px;
+    background-color: #D1D5DB;
+    border-radius: 50%;
+}
+.Featured_Destinations_spans span:hover , .Featured_Destinations_spans span:focus{
+  background-color: #0f86e0;
+}
+.tour_button button {
+  border: none;
+  background-color: #D1D5DB;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.tour_button button:hover {
+  opacity: .4;
+}
+.tours .container{
+  background-color:#FDF0EB ;
+  margin-top: 50px;
+}
+.tours .tours_cards .card .tours_card_data{
+  padding: 10px;
+}
+.tours .tours_cards .card{
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.tours .tours_cards .card img{
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.tours .tours_cards .card .tours_card_data div{
+  display: flex;
+}
+.tours .tours_cards .card .tours_card_data .rating span{
+  font-size: 25px;
+}
+.tours .tours_cards .card .tours_card_data_rate{
+  right: 7px;
+    width: fit-content;
+    color: black;
+    top: -30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.Latest_Travel_Stories .left_card img{
+  height: 600px;
+  border-radius: 50px;
+}
+.Latest_Travel_Stories .left_card .data{
+  bottom: 60px;
+  left: 40px;
+  background-color: #171a1f99;
+  width: 87%;
+  border-radius: 50px;
+  padding: 15px;
+}
+.Latest_Travel_Stories .left_card .data .d-flex button{
+  color: #5592afb0;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+.Latest_Travel_Stories .left_card .data .d-flex button:hover{
+  color: white;
+}
+.footer{
+  background-color: #E5E7EB;
+  padding: 20px;
+}
+.footer .col ul li {
+  list-style: none;
+}
+.footer img{
+  width: 20px;
+    height: 40px;
+}
